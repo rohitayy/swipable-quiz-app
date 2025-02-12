@@ -1,9 +1,5 @@
-import './App.css'
+import QuizApp from "./components/QuizApp";
 
 export default function App() {
-  return (
-    <main>
-      React ⚛️ + Vite ⚡ + Replit
-    </main>
-  )
+    return <QuizApp />;
 }
